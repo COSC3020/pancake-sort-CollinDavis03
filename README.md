@@ -29,3 +29,13 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+## Answer 
+Looking at this code we know that the code has to scan through the code and with that each iteration would be $O(n)$ for the comparisons of each pass. 
+
+With the passes, we have to perform that on every element that we have in the array and reduce the size by 1. This would come out to be $n$. 
+
+Combining these it would come out to be $O(n^2)$ as the worst-case scenario and then the best-case scenario would be $O(n)$. This would only happen if it was to be linear and found at the start of the array. 
+
+## Sources
+
+## Plagarism Statement
