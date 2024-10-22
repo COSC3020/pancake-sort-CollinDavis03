@@ -37,5 +37,8 @@ With the passes, we have to perform that on every element that we have in the ar
 Combining these it would come out to be $O(n^2)$ as the worst-case scenario and then the best-case scenario would be $O(n)$. This would only happen if it was to be linear and found at the start of the array. 
 
 ## Sources
+I looked at Cian Melker and Caden's code to get an idea of how to do the pancake sort code because I was struggling with that at the start. I looked over it to get a better understanding of their code and then wrote it on my own in VS code. I also asked Nolan for his reference on the runtime analysis because I wanted to make sure that I was doing the runtime analysis code right. 
 
 ## Plagarism Statement
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
+
