@@ -29,3 +29,22 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+## Answer 
+Looking at this code we know that the code has to scan through the code and with that each iteration would be $O(n)$ for the comparisons of each pass. 
+
+With the passes, we have to perform that on every element that we have in the array and reduce the size by 1. This would come out to be $n$. 
+
+Combining these it would come out to be $O(n^2)$ as the worst-case scenario and then the best-case scenario would be $O(n)$. This would only happen if it was to be linear and found at the start of the array. 
+
+Comparisons are pretty much just passing over the unsorted array until it finds the maximum number. Pretty much the pass is proportioned to the size of the array. Which would come out to be $O(n^2)$ as the worst-case scenario. 
+
+With each pass, up to 2 flips might be needed. One for maximum and one for correct position. each pass is n-1. 2(n-1) = $O(n)$ 
+
+We know for comparisons the worst-case is $O(n^2)$ and for flips it is $O(n)$ 
+
+## Sources
+I looked at Cian Melker and Caden's code to get an idea of how to do the pancake sort code because I was struggling with that at the start. I looked over it to get a better understanding of their code and then wrote it on my own in VS code. I wrote the whole code myself the only thing I did was add in the comments based on what I saw in their codes and I wrote the rest on my own from there. I also asked Nolan for his reference on the runtime analysis because I wanted to make sure that I was doing the runtime analysis code right. 
+
+## Plagarism Statement
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
+
